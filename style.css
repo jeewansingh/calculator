@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-image: linear-gradient(#ED213A, #93291E);
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.row:last-child {
+    margin-bottom: 10px;
+}
+
+
+.result {
+
+    height: 70px;
+    width: 240px;
+    border: 2px solid #000;
+    background-color: rgb(208, 217, 255);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.input {
+    color: black;
+    opacity: 70%;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+.output {
+    color: black;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 15px;
+    margin-top: 2px;
+    letter-spacing: 1px;
+}
+
+.number {
+    font-weight: 200;
+    text-align: center;
+    max-width: 100%;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+    color: #eee;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #333;
+}
+
+.number-1 {
+    height: 34px;
+    width: 34px;
+    margin: 1.5px;
+    font-size: 11px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background-color: #eee;
+    color: #222;
+    font-weight: bold;
+}
+
+.row-1 {
+    height: 34px;
+    width: 34px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    border-radius: 8px;
+    color: #eee;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #333;
+    transform: translate(102px);
+}
+
+
+.last-number {
+    /* background-color: #ED213A; */
+    width: 110px;
+}
+
+button {
+    box-shadow: 2px 2px rgba(51, 51, 51, 0.507);
+}
+
+button:active {
+    background: #eee;
+    border: 2px solid #333;
+    color: #111;
+}
+
+.row-2 button:active {
+    background: #333;
+    border: 2px solid #eee;
+    color: #eee;
+}
+
+.company {
+    /* background-color: #ED213A; */
+    height: 15px;
+    filter: invert();
+    opacity: 70%;
+    margin: 5px;
+    transform: translate(-65px, 5px);
+}
